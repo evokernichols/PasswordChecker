@@ -1,0 +1,120 @@
+abCD12!@
+zyXW09$@one
+asDF56#eno@
+R (Case 1: <9 Characters)
+abCD12!@thisistoolongfdsa
+zyXW09$@one
+asDF56#eno@
+R (Case 2: >24 Characters)
+abCD12!@” 
+zyXW09$@one
+asDF56#eno@
+R (Case 3: Invalid)
+abcD12!@one
+zyXW09$@one
+asDF56#eno@
+R (Case 4: <2 Upper)
+aBCD12!@ONE
+zyXW09$@one
+asDF56#eno@
+R (Case 5: <2 Lower)
+abCD1!!@o
+zyXW09$@one
+asDF56#eno@
+R (Case 6: <2 Numerals)
+abCD13!one
+zyXW09$@one
+asDF56#eno@
+R (Case 7: <2 Special)
+abCD12!@one
+zyXW09$@one
+asDF56#eno@
+A (Case 8: All conidtions met)
+@$0wXY#@$
+zYXW0$@1one
+YXw0$two$#
+R (Case 9: <2 Lower, <2 Numerals, Similar)
+Zasdf12#$
+fdsaZ34%$D
+f12#$ASdf
+R (Case 10: <2 Upper, Similar)
+aS1234#$%
+S12345asF#$
+$#432asDF
+R (Case 11: <2 Upper, <2 Lower, Similar)
+asDF1 2#321
+ASdf1#$89
+2#321qwER
+R (Case 12: Invalid, <2 Speical, Similar)
+aSGQF1@ASDF”
+aSgQf56#$
+qwER54#$2
+R (Case 13: Invalid, <2 Lower, <2 Numerals, <2 Special, Similar)
+`”`”`”^^^’’’
+aSgQf56#$`”`”`
+qw^^^’’ER54#$2
+R (Case 14: Invalid, <2 Upper, <2 Lower, <2 Numerals, <2 Special, Similar)
+asDF1#$
+asDF123#$
+poIU98$#
+R (Case 15: <9 Characters, <2 Numerals, Similar)
+ASdf1%
+1fdSA23#$
+%1fdSasDf849#
+R (Case 16: <9 Characters, <2 Numerals, <2 Special, Similar)
+aS12%
+%21sAas#$
+&(poIU456
+R (Case 17: <9 Characters, <2 Upper, <2 Lower, <2 Special, Similar)
+ASdf9%$”
+ASdf95#$3434
+df9%$DF21
+R (Case 18: <0 Characters, Invalid, <2 Numerals, Similar)
+asD98%`
+poIU67#$%%%
+%89DsZXc19
+R (Case 19: <9 Characters, Invalid, <2 Upper, <2 Special, Similar)
+aS12#$”
+As12#$Dd%
+$12SaesDF$
+R (Case 20: <9 Characters, Invalid, <2 Upper, <2 Lower, Similar)
+sANSQWERTYUIOPASDFGHJKL123456#
+1lkjhER23$#CX
+QWERTop()37
+R (Case 21: >24 Characters, <2 Lower, <2 Special, Similar)
+qwertyuiopasdfghlkkzxcvoiuh
+qweRT12%$
+SidERFje38$#
+R (Case 22: >24 Characters, <2 Upper, <2 Numerals, <2 Special, Similar)
+()()()()()()()()(()[][][][][][][][][]@o@/\@O@
+1lkjhER23$#CX
+@o@/\@0@asDF34#$
+R (Case 23: >24 Characters, <2 Upper, <2 Lower, <2 Numerals, Similar)
+“QWERTYUIASDFKLqwertyuiosdfghj789456123
+KLqwePotato34%$
+LKFDSasdf434#$
+R (Case 24: >24 Characters, Invalid, <2 Special, Similar)
+“QWERTYUIASDFKLEWIRYUIEWRSDFSDF546564#$#
+#4656asDF#
+zxVC12#$5
+R (Case 25: >24 Characters, Invalid, <2 Lower, Similar)
+“qwertyuiopoiuytrewqsdfglkjsgdq#$
+ytREw345%$
+zxcvVCX43%#$
+R (Case 26: >24 Characters, Invalid, <2 Upper, <2 Numerals, Similar)
+abCD123%#
+abCD
+asDF56#eno@
+A (Case 27: Testing short (<5 length) old password)
+abCD123%$
+abCDWERTYUIO123123123123123123$#1123%$
+asDF56#eno@
+R (Case 28: Similar; Testing long (>24 length) old password)
+abCD123%#
+abCD1ad
+asDF56#eno@
+R (Case 29: Similar; Testing >5 length <9 length old password)
+abCD123%#
+abCD1ad” “ “ ‘’ “
+asDF56#eno@
+R (Case 30: Similar; Testing invalid chars in old password)
